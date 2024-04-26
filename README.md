@@ -56,11 +56,11 @@ ACCESS_TOKEN_SECRET = 'your_access_token_secret'
 ## 使用方法
 1. 运行程序
    ```bash
-   python exporter.py
+   python app.py
    ```
 2. 按照提示输入Twitter用户名。
 3. 使用日历控件选择年月。
-4. 导出的XLSX文件将在 `datta/` 目录下。
+4. 导出的XLSX文件将在 `data/` 目录下。
 
 ## 技术架构
 - **Python**: 主要编程语言。
