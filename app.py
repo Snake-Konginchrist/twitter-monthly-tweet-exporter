@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import messagebox  # 引入弹窗库
 
 from storage.excel import save_to_excel
 from twitter.api import get_tweets
@@ -8,15 +9,22 @@ def fetch_tweets():
     username = username_entry.get()
     year = year_var.get()
     month = month_var.get()
-    tweets = get_tweets(username, year, month)
-    filepath = save_to_excel(tweets, username, year, month)
-    result_label.config(text=f"文件已保存至: {filepath}")
+    try:
+        tweets = get_tweets(username, year, month)
+        if not tweets:
+            messagebox.showinfo("结果", "没有找到推文。")
+            return
+        filepath = save_to_excel(tweets, username, year, month)
+        result_label.config(text=f"文件已保存至: {filepath}")
+        messagebox.showinfo("成功", "推文成功获取并保存！")
+    except Exception as e:
+        messagebox.showerror("错误", f"获取推文失败：{e}")
 
 
 # 创建窗口
 root = tk.Tk()
 root.title("Twitter Monthly Tweet Exporter")
-root.geometry('400x200')  # 设置窗口尺寸
+root.geometry('400x250')  # 设置窗口尺寸
 
 # 添加输入字段
 tk.Label(root, text="Twitter 用户名:").pack(pady=10)  # pady增加垂直外边距
