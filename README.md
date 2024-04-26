@@ -1,7 +1,9 @@
-# Twitter Monthly Tweet Exporter
+# Twitter月度推文导出器
+
+### [Switch to English Version](README(en).md)
 
 ## 项目描述
-Twitter Monthly Tweet Exporter是一个工具，用于从指定的Twitter账户获取推文，并根据用户选择的月份进行归档，每个月的推文将被保存到一个单独的XLSX文件中。用户可以通过一个简单的日历界面选择年月，方便地导出历史数据。
+Twitter月度推文导出器是一个工具，用于从指定的Twitter账户获取推文，并根据用户选择的月份进行归档，每个月的推文将被保存到一个单独的XLSX文件中。用户可以通过一个简单的日历界面选择年月，方便地导出历史数据。
 
 ## 功能特性
 - 输入Twitter用户名，获取该用户的推文。
