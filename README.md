@@ -50,6 +50,8 @@ Twitter Monthly Tweet Exporter是一个工具，用于从指定的Twitter账户�
 #### 获取API密钥和令牌
 创建应用后，你将获得API Key和API Secret Key。
 进一步在应用设置中生成Access Token和Access Token Secret。
+#### 注意
+这需要升级你的应用访问权限，需要购买基本版API_v2，每个月100美元（免费版只能代表用户发帖）。
 ### 密钥文件设置
 你需要在项目根目录下自行创建一个config.py文件来存储你的Twitter API密钥和令牌。请按照下面的格式创建该文件：
 
