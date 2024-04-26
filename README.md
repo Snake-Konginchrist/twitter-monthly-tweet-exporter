@@ -40,6 +40,17 @@ Twitter Monthly Tweet Exporter是一个工具，用于从指定的Twitter账户�
    ```
 
 ### 配置API密钥
+要获取Twitter API密钥，你需要完成以下步骤： 
+#### 访问Twitter开发者平台
+打开[Twitter Developer Platform](https://developer.twitter.com/)并登录你的Twitter账户。 
+#### 申请开发者访问权限
+点击“Apply for access”并按照提示完成申请流程。
+#### 创建一个项目和应用
+完成开发者认证后，在开发者控制台中创建一个新项目。在项目中创建应用，并填写必要的详情，如应用名称、描述等。
+#### 获取API密钥和令牌
+创建应用后，你将获得API Key和API Secret Key。
+进一步在应用设置中生成Access Token和Access Token Secret。
+### 密钥文件设置
 你需要在项目根目录下自行创建一个config.py文件来存储你的Twitter API密钥和令牌。请按照下面的格式创建该文件：
 
 ```python
