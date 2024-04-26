@@ -91,5 +91,5 @@ twitter-monthly-post-tracker/
 本项目采用MIT许可证，详细信息请查阅LICENSE文件。
 
 ## 联系方式
-- GitHub: [Snake Konginchrist](https://github.com/Snake-Konginchrist)
+- GitHub: [Snake-Konginchrist](https://github.com/Snake-Konginchrist)
 - Email: 592413692@qq.com
