@@ -107,4 +107,5 @@ twitter-monthly-post-tracker/
 
 ## 联系方式
 - GitHub: [Snake-Konginchrist](https://github.com/Snake-Konginchrist)
-- Email: 592413692@qq.com
+- Gitee: [Snake-Konginchrist](https://gitee.com/Snake-Konginchrist)
+- Email: developer@skstudio.cn
